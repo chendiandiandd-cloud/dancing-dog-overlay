@@ -1,0 +1,1847 @@
+{
+  "version": 1,
+  "dogs": [
+    {
+      "id": "dog_01",
+      "file": "dogs/dog_01.npz",
+      "fps": 30.0,
+      "duration": 1.4,
+      "frame_count": 42,
+      "width": 530,
+      "height": 596,
+      "source_frame_count": 42,
+      "trimmed_source_frames": 0,
+      "trimmed_source_frame_indices": [],
+      "runtime_source_frame_range": [
+        0,
+        42
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": null,
+      "enclosed_green_policy": {
+        "preserve": false,
+        "reason": "non-green dominant hue: strict screen-color seeded holes",
+        "foreground_sample_rgb": [
+          253,
+          169,
+          43
+        ],
+        "foreground_sample_hue_opencv": 18,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        264.25,
+        578.0
+      ],
+      "dominant_color": [
+        253,
+        169,
+        43
+      ],
+      "sha256": "572e22e25fa847ff818ac275702cc4231ed15b1e1d40a70402932803a4742a06",
+      "source": "source/dog_01.mp4",
+      "source_sha256": "c50f149ae5c63bf8ceffcfc5f4911de423b6656ae960c5b5b314120abb883f74",
+      "original_filename": "01_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.4,
+      "union_bbox": [
+        235,
+        67,
+        735,
+        633
+      ],
+      "crop_bbox": [
+        220,
+        52,
+        750,
+        648
+      ],
+      "padding_source_px": 15,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_01.mp4",
+        "source_sha256": "c50f149ae5c63bf8ceffcfc5f4911de423b6656ae960c5b5b314120abb883f74",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          530,
+          596
+        ],
+        "cache_resolution": [
+          530,
+          596
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 6277409,
+      "source_bytes": 113185,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 35452,
+        "enclosed_screen_transparent_pixels_total": 26198,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 24,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 239920,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 280321,
+        "uncompressed_bytes": 53067840
+      },
+      "processing_seconds": 9.241
+    },
+    {
+      "id": "dog_02",
+      "file": "dogs/dog_02.npz",
+      "fps": 30.0,
+      "duration": 1.8666666666666667,
+      "frame_count": 56,
+      "width": 570,
+      "height": 665,
+      "source_frame_count": 56,
+      "trimmed_source_frames": 0,
+      "trimmed_source_frame_indices": [],
+      "runtime_source_frame_range": [
+        0,
+        56
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": null,
+      "enclosed_green_policy": {
+        "preserve": false,
+        "reason": "non-green dominant hue: strict screen-color seeded holes",
+        "foreground_sample_rgb": [
+          252,
+          72,
+          3
+        ],
+        "foreground_sample_hue_opencv": 8,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        305.5,
+        647.0
+      ],
+      "dominant_color": [
+        252,
+        72,
+        3
+      ],
+      "sha256": "e9805e5b228bc7cc27fe1453fea36f6541f62befb6ed150e812f3fb5fa4e442f",
+      "source": "source/dog_02.mp4",
+      "source_sha256": "76caf61129fe79f4e125b4efba5f4a7a66365e9f0b14c363e39dbf515ce16c31",
+      "original_filename": "02_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.866667,
+      "union_bbox": [
+        191,
+        13,
+        729,
+        646
+      ],
+      "crop_bbox": [
+        175,
+        -3,
+        745,
+        662
+      ],
+      "padding_source_px": 16,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_02.mp4",
+        "source_sha256": "76caf61129fe79f4e125b4efba5f4a7a66365e9f0b14c363e39dbf515ce16c31",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          570,
+          665
+        ],
+        "cache_resolution": [
+          570,
+          665
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 7990314,
+      "source_bytes": 126938,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 1888,
+        "enclosed_screen_transparent_pixels_total": 282,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 182,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 148074,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 315902,
+        "uncompressed_bytes": 84907200
+      },
+      "processing_seconds": 11.23
+    },
+    {
+      "id": "dog_03",
+      "file": "dogs/dog_03.npz",
+      "fps": 30.0,
+      "duration": 1.5,
+      "frame_count": 45,
+      "width": 346,
+      "height": 578,
+      "source_frame_count": 45,
+      "trimmed_source_frames": 0,
+      "trimmed_source_frame_indices": [],
+      "runtime_source_frame_range": [
+        0,
+        45
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": null,
+      "enclosed_green_policy": {
+        "preserve": false,
+        "reason": "non-green dominant hue: strict screen-color seeded holes",
+        "foreground_sample_rgb": [
+          254,
+          108,
+          1
+        ],
+        "foreground_sample_hue_opencv": 13,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        185.5,
+        561.0
+      ],
+      "dominant_color": [
+        254,
+        108,
+        1
+      ],
+      "sha256": "84afb5f261e6db4052cdd5b0e2139317af2cfc632feb1ed5143d790cd62101a6",
+      "source": "source/dog_03.mp4",
+      "source_sha256": "98c9e9c0fa354d88a1b602b3aee47899cf4a5ed6d02a9a098711d8f29c06612a",
+      "original_filename": "03_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.5,
+      "union_bbox": [
+        321,
+        89,
+        639,
+        639
+      ],
+      "crop_bbox": [
+        307,
+        75,
+        653,
+        653
+      ],
+      "padding_source_px": 14,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_03.mp4",
+        "source_sha256": "98c9e9c0fa354d88a1b602b3aee47899cf4a5ed6d02a9a098711d8f29c06612a",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          346,
+          578
+        ],
+        "cache_resolution": [
+          346,
+          578
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 4311573,
+      "source_bytes": 86047,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 23456,
+        "enclosed_screen_transparent_pixels_total": 14499,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 103,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 169963,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 221184,
+        "uncompressed_bytes": 35997840
+      },
+      "processing_seconds": 8.876
+    },
+    {
+      "id": "dog_04",
+      "file": "dogs/dog_04.npz",
+      "fps": 30.0,
+      "duration": 1.9333333333333333,
+      "frame_count": 58,
+      "width": 442,
+      "height": 546,
+      "source_frame_count": 58,
+      "trimmed_source_frames": 0,
+      "trimmed_source_frame_indices": [],
+      "runtime_source_frame_range": [
+        0,
+        58
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": null,
+      "enclosed_green_policy": {
+        "preserve": false,
+        "reason": "non-green dominant hue: strict screen-color seeded holes",
+        "foreground_sample_rgb": [
+          29,
+          148,
+          169
+        ],
+        "foreground_sample_hue_opencv": 95,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        225.2625,
+        532.0
+      ],
+      "dominant_color": [
+        29,
+        148,
+        169
+      ],
+      "sha256": "4605de072215d85822b996757be8da3adaefaf254904a50c08592bf73097cf6a",
+      "source": "source/dog_04.mp4",
+      "source_sha256": "0161bd0059545cb9c817473e5b8b0a8e7b5c207828db2c27e95a04f2cbbd2b27",
+      "original_filename": "04_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.933333,
+      "union_bbox": [
+        269,
+        77,
+        685,
+        597
+      ],
+      "crop_bbox": [
+        256,
+        64,
+        698,
+        610
+      ],
+      "padding_source_px": 13,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_04.mp4",
+        "source_sha256": "0161bd0059545cb9c817473e5b8b0a8e7b5c207828db2c27e95a04f2cbbd2b27",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          442,
+          546
+        ],
+        "cache_resolution": [
+          442,
+          546
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 5032749,
+      "source_bytes": 91765,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 0,
+        "enclosed_screen_transparent_pixels_total": 0,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 54,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 124060,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 334569,
+        "uncompressed_bytes": 55989024
+      },
+      "processing_seconds": 10.923
+    },
+    {
+      "id": "dog_05",
+      "file": "dogs/dog_05.npz",
+      "fps": 30.0,
+      "duration": 1.9666666666666666,
+      "frame_count": 59,
+      "width": 516,
+      "height": 478,
+      "source_frame_count": 59,
+      "trimmed_source_frames": 0,
+      "trimmed_source_frame_indices": [],
+      "runtime_source_frame_range": [
+        0,
+        59
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": null,
+      "enclosed_green_policy": {
+        "preserve": false,
+        "reason": "non-green dominant hue: strict screen-color seeded holes",
+        "foreground_sample_rgb": [
+          181,
+          116,
+          253
+        ],
+        "foreground_sample_hue_opencv": 134,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        261.5,
+        464.0
+      ],
+      "dominant_color": [
+        181,
+        117,
+        253
+      ],
+      "sha256": "f8c84b31db77daed123c0a8978907fff9c2676e7478d6cf36d5383f0f32a21a6",
+      "source": "source/dog_05.mp4",
+      "source_sha256": "59b437323178bca102a1e6746aecce222db2520b6f7ffc1ad67a964446f7d8e8",
+      "original_filename": "05_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.966667,
+      "union_bbox": [
+        237,
+        116,
+        729,
+        570
+      ],
+      "crop_bbox": [
+        225,
+        104,
+        741,
+        582
+      ],
+      "padding_source_px": 12,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_05.mp4",
+        "source_sha256": "59b437323178bca102a1e6746aecce222db2520b6f7ffc1ad67a964446f7d8e8",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          516,
+          478
+        ],
+        "cache_resolution": [
+          516,
+          478
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 7140055,
+      "source_bytes": 103191,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 68041,
+        "enclosed_screen_transparent_pixels_total": 55042,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 184,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 110295,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 368274,
+        "uncompressed_bytes": 58208928
+      },
+      "processing_seconds": 11.479
+    },
+    {
+      "id": "dog_06",
+      "file": "dogs/dog_06.npz",
+      "fps": 30.0,
+      "duration": 1.9333333333333333,
+      "frame_count": 58,
+      "width": 555,
+      "height": 472,
+      "source_frame_count": 58,
+      "trimmed_source_frames": 0,
+      "trimmed_source_frame_indices": [],
+      "runtime_source_frame_range": [
+        0,
+        58
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": null,
+      "enclosed_green_policy": {
+        "preserve": true,
+        "reason": "verified green-detail/glow source override",
+        "foreground_sample_rgb": [
+          3,
+          180,
+          251
+        ],
+        "foreground_sample_hue_opencv": 98,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        255.0,
+        437.0
+      ],
+      "dominant_color": [
+        21,
+        216,
+        237
+      ],
+      "sha256": "f527c1dc1ae627c3e38c239312231f39bf9658b1ccb8dbb61f23bc0b3fc89a75",
+      "source": "source/dog_06.mp4",
+      "source_sha256": "6f7fe8f08df3d95c4a9c37f714bf5d1ddae65a0145bd761c2a6789693a275fc1",
+      "original_filename": "06_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.933333,
+      "union_bbox": [
+        212,
+        117,
+        743,
+        565
+      ],
+      "crop_bbox": [
+        200,
+        105,
+        755,
+        577
+      ],
+      "padding_source_px": 12,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_06.mp4",
+        "source_sha256": "6f7fe8f08df3d95c4a9c37f714bf5d1ddae65a0145bd761c2a6789693a275fc1",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          555,
+          472
+        ],
+        "cache_resolution": [
+          555,
+          472
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 3513996,
+      "source_bytes": 98237,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 0,
+        "enclosed_screen_transparent_pixels_total": 0,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 4241,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 17978,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 257536,
+        "uncompressed_bytes": 60774720
+      },
+      "processing_seconds": 8.66
+    },
+    {
+      "id": "dog_07",
+      "file": "dogs/dog_07.npz",
+      "fps": 30.0,
+      "duration": 1.5333333333333334,
+      "frame_count": 46,
+      "width": 566,
+      "height": 558,
+      "source_frame_count": 46,
+      "trimmed_source_frames": 0,
+      "trimmed_source_frame_indices": [],
+      "runtime_source_frame_range": [
+        0,
+        46
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": null,
+      "enclosed_green_policy": {
+        "preserve": false,
+        "reason": "non-green dominant hue: strict screen-color seeded holes",
+        "foreground_sample_rgb": [
+          252,
+          178,
+          8
+        ],
+        "foreground_sample_hue_opencv": 21,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        282.5,
+        541.0
+      ],
+      "dominant_color": [
+        252,
+        178,
+        8
+      ],
+      "sha256": "25d44a06888db57e078dd03661933c28a2d7d6585b43f1c289d456c30b1cb4b7",
+      "source": "source/dog_07.mp4",
+      "source_sha256": "771a66afd72ee07401b7aa7a051ae603446acdb544a517b63200e5b392e71d21",
+      "original_filename": "07_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.533333,
+      "union_bbox": [
+        207,
+        73,
+        745,
+        603
+      ],
+      "crop_bbox": [
+        193,
+        59,
+        759,
+        617
+      ],
+      "padding_source_px": 14,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_07.mp4",
+        "source_sha256": "771a66afd72ee07401b7aa7a051ae603446acdb544a517b63200e5b392e71d21",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          566,
+          558
+        ],
+        "cache_resolution": [
+          566,
+          558
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 7306646,
+      "source_bytes": 105515,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 349406,
+        "enclosed_screen_transparent_pixels_total": 287736,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 4,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 145920,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 360528,
+        "uncompressed_bytes": 58112352
+      },
+      "processing_seconds": 9.464
+    },
+    {
+      "id": "dog_08",
+      "file": "dogs/dog_08.npz",
+      "fps": 30.0,
+      "duration": 1.4,
+      "frame_count": 42,
+      "width": 537,
+      "height": 573,
+      "source_frame_count": 42,
+      "trimmed_source_frames": 0,
+      "trimmed_source_frame_indices": [],
+      "runtime_source_frame_range": [
+        0,
+        42
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": null,
+      "enclosed_green_policy": {
+        "preserve": false,
+        "reason": "non-green dominant hue: strict screen-color seeded holes",
+        "foreground_sample_rgb": [
+          240,
+          0,
+          243
+        ],
+        "foreground_sample_hue_opencv": 150,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        265.5,
+        557.0
+      ],
+      "dominant_color": [
+        240,
+        0,
+        243
+      ],
+      "sha256": "fb816bc259fb82afcaed4a6bb3e34c88cce0383842b4b7d92e46ba88010d6a58",
+      "source": "source/dog_08.mp4",
+      "source_sha256": "645182b8e0869f2cf533f85337a93170efd0e13b69a2e61aedbcb3e6fd52a7c1",
+      "original_filename": "08_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.4,
+      "union_bbox": [
+        226,
+        65,
+        735,
+        610
+      ],
+      "crop_bbox": [
+        212,
+        51,
+        749,
+        624
+      ],
+      "padding_source_px": 14,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_08.mp4",
+        "source_sha256": "645182b8e0869f2cf533f85337a93170efd0e13b69a2e61aedbcb3e6fd52a7c1",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          537,
+          573
+        ],
+        "cache_resolution": [
+          537,
+          573
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 6334636,
+      "source_bytes": 100848,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 1102,
+        "enclosed_screen_transparent_pixels_total": 380,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 1,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 32512,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 292743,
+        "uncompressed_bytes": 51693768
+      },
+      "processing_seconds": 8.478
+    },
+    {
+      "id": "dog_09",
+      "file": "dogs/dog_09.npz",
+      "fps": 30.0,
+      "duration": 1.9,
+      "frame_count": 57,
+      "width": 620,
+      "height": 348,
+      "source_frame_count": 57,
+      "trimmed_source_frames": 0,
+      "trimmed_source_frame_indices": [],
+      "runtime_source_frame_range": [
+        0,
+        57
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": null,
+      "enclosed_green_policy": {
+        "preserve": false,
+        "reason": "non-green dominant hue: strict screen-color seeded holes",
+        "foreground_sample_rgb": [
+          253,
+          155,
+          2
+        ],
+        "foreground_sample_hue_opencv": 18,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        313.5,
+        336.0
+      ],
+      "dominant_color": [
+        253,
+        155,
+        2
+      ],
+      "sha256": "c54e0af5cdaba385ffdf28ead8a6eb1dfe4b743262ebd035d3791f8dab4bcec1",
+      "source": "source/dog_09.mp4",
+      "source_sha256": "85ad6ea3d0f15ba9502ae3dcb8144ee93c1ec3abb0713f00beb51c7c4880112c",
+      "original_filename": "09_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.9,
+      "union_bbox": [
+        181,
+        177,
+        783,
+        507
+      ],
+      "crop_bbox": [
+        172,
+        168,
+        792,
+        516
+      ],
+      "padding_source_px": 9,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_09.mp4",
+        "source_sha256": "85ad6ea3d0f15ba9502ae3dcb8144ee93c1ec3abb0713f00beb51c7c4880112c",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          620,
+          348
+        ],
+        "cache_resolution": [
+          620,
+          348
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 5056883,
+      "source_bytes": 105772,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 0,
+        "enclosed_screen_transparent_pixels_total": 0,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 3,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 43853,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 335711,
+        "uncompressed_bytes": 49193280
+      },
+      "processing_seconds": 10.711
+    },
+    {
+      "id": "dog_10",
+      "file": "dogs/dog_10.npz",
+      "fps": 30.0,
+      "duration": 1.9666666666666666,
+      "frame_count": 59,
+      "width": 557,
+      "height": 529,
+      "source_frame_count": 59,
+      "trimmed_source_frames": 0,
+      "trimmed_source_frame_indices": [],
+      "runtime_source_frame_range": [
+        0,
+        59
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": null,
+      "enclosed_green_policy": {
+        "preserve": false,
+        "reason": "non-green dominant hue: strict screen-color seeded holes",
+        "foreground_sample_rgb": [
+          238,
+          199,
+          1
+        ],
+        "foreground_sample_hue_opencv": 25,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        289.0,
+        513.0
+      ],
+      "dominant_color": [
+        238,
+        199,
+        1
+      ],
+      "sha256": "bc8df076d164cd2ebc22cff2d2791acbe8f5bda22f32e10a57e00c37654f9314",
+      "source": "source/dog_10.mp4",
+      "source_sha256": "c75d8822bc4af21e4e2f3074b637e665e62a01524d8d60f40a32b19ea9d39856",
+      "original_filename": "10_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.966667,
+      "union_bbox": [
+        216,
+        86,
+        747,
+        589
+      ],
+      "crop_bbox": [
+        203,
+        73,
+        760,
+        602
+      ],
+      "padding_source_px": 13,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_10.mp4",
+        "source_sha256": "c75d8822bc4af21e4e2f3074b637e665e62a01524d8d60f40a32b19ea9d39856",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          557,
+          529
+        ],
+        "cache_resolution": [
+          557,
+          529
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 6480212,
+      "source_bytes": 114569,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 0,
+        "enclosed_screen_transparent_pixels_total": 0,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 11,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 64912,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 325378,
+        "uncompressed_bytes": 69538108
+      },
+      "processing_seconds": 11.36
+    },
+    {
+      "id": "dog_11",
+      "file": "dogs/dog_11.npz",
+      "fps": 30.0,
+      "duration": 1.9666666666666666,
+      "frame_count": 59,
+      "width": 564,
+      "height": 581,
+      "source_frame_count": 59,
+      "trimmed_source_frames": 0,
+      "trimmed_source_frame_indices": [],
+      "runtime_source_frame_range": [
+        0,
+        59
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": null,
+      "enclosed_green_policy": {
+        "preserve": false,
+        "reason": "non-green dominant hue: strict screen-color seeded holes",
+        "foreground_sample_rgb": [
+          254,
+          49,
+          30
+        ],
+        "foreground_sample_hue_opencv": 3,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        184.5,
+        565.0
+      ],
+      "dominant_color": [
+        254,
+        49,
+        30
+      ],
+      "sha256": "37ffc10000500358505c10ffde58bbcc2c728864579123013d6dfd8af4e16346",
+      "source": "source/dog_11.mp4",
+      "source_sha256": "bed453cae14a178cbc0f483f30044f27473aa407d147ca2a47f21b48370e0275",
+      "original_filename": "11_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.966667,
+      "union_bbox": [
+        213,
+        65,
+        749,
+        618
+      ],
+      "crop_bbox": [
+        199,
+        51,
+        763,
+        632
+      ],
+      "padding_source_px": 14,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_11.mp4",
+        "source_sha256": "bed453cae14a178cbc0f483f30044f27473aa407d147ca2a47f21b48370e0275",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          564,
+          581
+        ],
+        "cache_resolution": [
+          564,
+          581
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 8495806,
+      "source_bytes": 126387,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 0,
+        "enclosed_screen_transparent_pixels_total": 0,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 1,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 153666,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 345635,
+        "uncompressed_bytes": 77333424
+      },
+      "processing_seconds": 11.599
+    },
+    {
+      "id": "dog_12",
+      "file": "dogs/dog_12.npz",
+      "fps": 30.0,
+      "duration": 1.4,
+      "frame_count": 42,
+      "width": 581,
+      "height": 531,
+      "source_frame_count": 42,
+      "trimmed_source_frames": 0,
+      "trimmed_source_frame_indices": [],
+      "runtime_source_frame_range": [
+        0,
+        42
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": null,
+      "enclosed_green_policy": {
+        "preserve": false,
+        "reason": "non-green dominant hue: strict screen-color seeded holes",
+        "foreground_sample_rgb": [
+          238,
+          237,
+          80
+        ],
+        "foreground_sample_hue_opencv": 30,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        291.75,
+        515.0
+      ],
+      "dominant_color": [
+        238,
+        237,
+        80
+      ],
+      "sha256": "4aa7880e0d9d47fb5f233c87416097d1f1fb89f2bbdaa288766ee66b2251447a",
+      "source": "source/dog_12.mp4",
+      "source_sha256": "0fae649b087b01977bfb4772f2c4f217e86b066230e2eef8130629559a394b5a",
+      "original_filename": "12_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.4,
+      "union_bbox": [
+        204,
+        84,
+        759,
+        589
+      ],
+      "crop_bbox": [
+        191,
+        71,
+        772,
+        602
+      ],
+      "padding_source_px": 13,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_12.mp4",
+        "source_sha256": "0fae649b087b01977bfb4772f2c4f217e86b066230e2eef8130629559a394b5a",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          581,
+          531
+        ],
+        "cache_resolution": [
+          581,
+          531
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 4390080,
+      "source_bytes": 83557,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 2550,
+        "enclosed_screen_transparent_pixels_total": 1161,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 19,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 112954,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 235063,
+        "uncompressed_bytes": 51829848
+      },
+      "processing_seconds": 8.492
+    },
+    {
+      "id": "dog_13",
+      "file": "dogs/dog_13.npz",
+      "fps": 30.0,
+      "duration": 1.4666666666666666,
+      "frame_count": 44,
+      "width": 516,
+      "height": 426,
+      "source_frame_count": 44,
+      "trimmed_source_frames": 0,
+      "trimmed_source_frame_indices": [],
+      "runtime_source_frame_range": [
+        0,
+        44
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": null,
+      "enclosed_green_policy": {
+        "preserve": false,
+        "reason": "non-green dominant hue: strict screen-color seeded holes",
+        "foreground_sample_rgb": [
+          241,
+          227,
+          52
+        ],
+        "foreground_sample_hue_opencv": 28,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        175.5,
+        413.0
+      ],
+      "dominant_color": [
+        241,
+        227,
+        52
+      ],
+      "sha256": "79b54809eed2441044ba20f2d0da095b761f79bd9925daf3461424582ea49655",
+      "source": "source/dog_13.mp4",
+      "source_sha256": "2c3fdf346a37bf27ce857a62fa0995aa2d6260ba8df72ae939a2d65331cd0cb5",
+      "original_filename": "13_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.466667,
+      "union_bbox": [
+        233,
+        191,
+        727,
+        595
+      ],
+      "crop_bbox": [
+        222,
+        180,
+        738,
+        606
+      ],
+      "padding_source_px": 11,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_13.mp4",
+        "source_sha256": "2c3fdf346a37bf27ce857a62fa0995aa2d6260ba8df72ae939a2d65331cd0cb5",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          516,
+          426
+        ],
+        "cache_resolution": [
+          516,
+          426
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 4656226,
+      "source_bytes": 90540,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 9333,
+        "enclosed_screen_transparent_pixels_total": 4724,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 125,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 161982,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 247833,
+        "uncompressed_bytes": 38687616
+      },
+      "processing_seconds": 8.932
+    },
+    {
+      "id": "dog_14",
+      "file": "dogs/dog_14.npz",
+      "fps": 30.0,
+      "duration": 1.9,
+      "frame_count": 57,
+      "width": 528,
+      "height": 630,
+      "source_frame_count": 57,
+      "trimmed_source_frames": 0,
+      "trimmed_source_frame_indices": [],
+      "runtime_source_frame_range": [
+        0,
+        57
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": null,
+      "enclosed_green_policy": {
+        "preserve": false,
+        "reason": "non-green dominant hue: strict screen-color seeded holes",
+        "foreground_sample_rgb": [
+          252,
+          221,
+          106
+        ],
+        "foreground_sample_hue_opencv": 24,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        203.0,
+        612.0
+      ],
+      "dominant_color": [
+        252,
+        221,
+        105
+      ],
+      "sha256": "a543810845367a40eaa79712688b40c6565aa6ab1108dfb2299ed27d12e0a989",
+      "source": "source/dog_14.mp4",
+      "source_sha256": "149a8e3ccf77e87ac38adee778703646a598a9262388f69ec780a9d4f09d4afd",
+      "original_filename": "14_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.9,
+      "union_bbox": [
+        235,
+        5,
+        733,
+        605
+      ],
+      "crop_bbox": [
+        220,
+        -10,
+        748,
+        620
+      ],
+      "padding_source_px": 15,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_14.mp4",
+        "source_sha256": "149a8e3ccf77e87ac38adee778703646a598a9262388f69ec780a9d4f09d4afd",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          528,
+          630
+        ],
+        "cache_resolution": [
+          528,
+          630
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 7087792,
+      "source_bytes": 121158,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 20670,
+        "enclosed_screen_transparent_pixels_total": 14050,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 10,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 123224,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 386985,
+        "uncompressed_bytes": 75841920
+      },
+      "processing_seconds": 11.38
+    },
+    {
+      "id": "dog_15",
+      "file": "dogs/dog_15.npz",
+      "fps": 30.0,
+      "duration": 1.9333333333333333,
+      "frame_count": 58,
+      "width": 564,
+      "height": 492,
+      "source_frame_count": 59,
+      "trimmed_source_frames": 1,
+      "trimmed_source_frame_indices": [
+        58
+      ],
+      "runtime_source_frame_range": [
+        0,
+        58
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": "verified trailing blue-character scene change; clean prefix retained",
+      "enclosed_green_policy": {
+        "preserve": false,
+        "reason": "non-green dominant hue: strict screen-color seeded holes",
+        "foreground_sample_rgb": [
+          231,
+          229,
+          2
+        ],
+        "foreground_sample_hue_opencv": 30,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        282.0,
+        477.0
+      ],
+      "dominant_color": [
+        231,
+        229,
+        2
+      ],
+      "sha256": "cd8b4afe37736571faddfd3138c6d8fabcf6f3756ed29ba52eac3088f46c6761",
+      "source": "source/dog_15.mp4",
+      "source_sha256": "44dc4ac51819c0178c8ffba0f99ef3584486322fd5b53cb1475d808b87adc3e6",
+      "original_filename": "15_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.966667,
+      "union_bbox": [
+        211,
+        104,
+        751,
+        572
+      ],
+      "crop_bbox": [
+        199,
+        92,
+        763,
+        584
+      ],
+      "padding_source_px": 12,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_15.mp4",
+        "source_sha256": "44dc4ac51819c0178c8ffba0f99ef3584486322fd5b53cb1475d808b87adc3e6",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          564,
+          492
+        ],
+        "cache_resolution": [
+          564,
+          492
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 6085243,
+      "source_bytes": 124807,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 1980,
+        "enclosed_screen_transparent_pixels_total": 1393,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 16,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 100656,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 318873,
+        "uncompressed_bytes": 64377216
+      },
+      "processing_seconds": 11.158
+    },
+    {
+      "id": "dog_16",
+      "file": "dogs/dog_16.npz",
+      "fps": 30.0,
+      "duration": 1.5,
+      "frame_count": 45,
+      "width": 547,
+      "height": 668,
+      "source_frame_count": 45,
+      "trimmed_source_frames": 0,
+      "trimmed_source_frame_indices": [],
+      "runtime_source_frame_range": [
+        0,
+        45
+      ],
+      "runtime_source_frame_range_convention": "zero-based, end-exclusive",
+      "trim_reason": null,
+      "enclosed_green_policy": {
+        "preserve": false,
+        "reason": "non-green dominant hue: strict screen-color seeded holes",
+        "foreground_sample_rgb": [
+          248,
+          221,
+          12
+        ],
+        "foreground_sample_hue_opencv": 27,
+        "strict_screen_rgb_distance_max": 18.0,
+        "strict_screen_channel_difference_max": 18
+      },
+      "anchor": [
+        261.5,
+        649.0
+      ],
+      "dominant_color": [
+        248,
+        221,
+        12
+      ],
+      "sha256": "dfa556d0e829f12829f36be504f52a8c87965f28b2b8f6a23e5042ad0d3b94df",
+      "source": "source/dog_16.mp4",
+      "source_sha256": "70e800a4c774900884e9207bed39ed8e7b5ca0a720b879bc530fd2017700a43b",
+      "original_filename": "16_动态素材.mp4",
+      "source_width": 960,
+      "source_height": 720,
+      "fps_rational": "30/1",
+      "source_duration": 1.5,
+      "union_bbox": [
+        223,
+        19,
+        738,
+        655
+      ],
+      "crop_bbox": [
+        207,
+        3,
+        754,
+        671
+      ],
+      "padding_source_px": 16,
+      "scale_xy": [
+        1.0,
+        1.0
+      ],
+      "resolution_provenance": {
+        "source": "source/dog_16.mp4",
+        "source_sha256": "70e800a4c774900884e9207bed39ed8e7b5ca0a720b879bc530fd2017700a43b",
+        "decoded_resolution": [
+          960,
+          720
+        ],
+        "native_crop_resolution": [
+          547,
+          668
+        ],
+        "cache_resolution": [
+          547,
+          668
+        ],
+        "native_pixels_preserved": true,
+        "max_height": 0,
+        "sharpen_amount": 0,
+        "method": "original decoded frames, offline key + union crop; no generated pixels or super-resolution"
+      },
+      "anchor_method": "fixed median lower-limb stance-center x; maximum solid-largest-component floor y; pixel coordinates",
+      "pipeline_signature": "f67a1dbb3ffd0da523350b492d32bcbb79837ce9faf65410c8ba2de4ebe96440",
+      "npz_bytes": 7148220,
+      "source_bytes": 98269,
+      "quality": {
+        "all_frames_inside_union": true,
+        "suspicious_color_jump_frames": [],
+        "enclosed_screen_keyed_pixels_total": 0,
+        "enclosed_screen_transparent_pixels_total": 0,
+        "protected_green_rgb_all_unchanged": true,
+        "protected_green_max_per_frame": 3,
+        "protected_green_all_opaque": true,
+        "solid_core_all_opaque": true,
+        "black_core_pixels_total": 250129,
+        "source_corner_alpha_max": 0,
+        "source_boundary_nonzero_total": 0,
+        "background_rgb_median": [
+          0.0,
+          201.0,
+          35.0
+        ],
+        "cycle_verified": false,
+        "warnings": [
+          "Enclosed green pixels kept opaque; these may include real green details or enclosed screen holes."
+        ],
+        "corner_alpha_max": 0,
+        "edge_alpha_max": 0,
+        "soft_alpha_pixels": 283562,
+        "uncompressed_bytes": 65771280
+      },
+      "processing_seconds": 9.552
+    }
+  ]
+}
